@@ -2,6 +2,24 @@
 
 **Based on:** Frigau, L., Conversano, C. & Antoch, J. "PARSEG: a computationally efficient approach for statistical validation of botanical seeds’ images". *Scientific Reports* (2024).
 
+## How to Cite
+
+If you use this method or code in your research, please cite the original paper:
+
+```bibtex
+@article{frigau2024parseg,
+  title={PARSEG: a computationally efficient approach for statistical validation of botanical seeds’ images},
+  author={Frigau, Luca and Conversano, Claudio and Antoch, Jarom{\'i}r},
+  journal={Scientific Reports},
+  volume={14},
+  number={1},
+  pages={6052},
+  year={2024},
+  publisher={Nature Portfolio},
+  doi={10.1038/s41598-024-56228-6}
+}
+```
+
 ## 1. Introduction and Methodological Rationale
 
 Traditional validation of image segmentation or large dataset classification often requires processing millions of pixels, which is computationally expensive. **PARSEG** (PArtitioning, Random Selection, Estimation, and Generalization) addresses this by finding the **minimum effective sample size** ($s^*$) that guarantees statistically valid results without using the entire dataset.
@@ -302,24 +320,3 @@ You can then compare methods using criteria such as the highest final metric.
 | Method C | 0.91 |
 
 In this example, **Method B** may be preferred over Method A and C, because it achieves the highest value in the considered metric.
-
----
-
-
-## How to Cite
-
-If you use this method or code in your research, please cite the original paper:
-
-```bibtex
-@article{frigau2024parseg,
-  title={PARSEG: a computationally efficient approach for statistical validation of botanical seeds’ images},
-  author={Frigau, Luca and Conversano, Claudio and Antoch, Jarom{\'i}r},
-  journal={Scientific Reports},
-  volume={14},
-  number={1},
-  pages={6052},
-  year={2024},
-  publisher={Nature Portfolio},
-  doi={10.1038/s41598-024-56228-6}
-}
-```
