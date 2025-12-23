@@ -257,7 +257,7 @@ Thus, PARSEG assesses **segmentation quality via predictive consistency**, not v
 After running the full workflow, you have:
 
 1. **Optimal sample size**  
-   $s^* = \texttt{opt\_s}$
+   $s^* =$ `opt_s`
    the minimal number of pixels required for stable performance.
 
 2. **Final validation table**  
@@ -274,7 +274,7 @@ After running the full workflow, you have:
    computed over the \(M\) disjoint blocks.
 
 3. **Data efficiency indicator**  
-   $\text{fraction\_used} = \frac{(M-1)s^* + n_1}{N}$
+   $\text{fraction used} = \frac{(M-1)s^* + n_1}{N}$
    measuring how many pixels are actually needed.
 
 ---
